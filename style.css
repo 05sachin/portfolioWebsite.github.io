@@ -249,3 +249,95 @@ footer .footer-rights {
   color: grey;
   padding: 12px 0;
 }
+@media screen and (max-width: 426px) {
+  body{
+    font-size: 16px;
+  }
+  .right ul {
+    display: none;
+  }
+  .firstsection{
+    margin-bottom: 10px;
+  }
+  .firstsection .leftsection,
+  .firstsection .rightsection {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .rightsection img {
+    max-width: 100%;
+  }
+  .leftsection .button {
+    margin-bottom: 0;
+    size: 10px;
+    
+  }
+
+  
+  .leftsection .btn {
+    margin-bottom: 0;
+    padding-left: 0;
+    flex-direction: row;
+    margin-right: 10px;
+    
+  }
+  .secondsection{
+    padding: 0px;
+  }
+  .secondsection .box p{
+    font-size: 16px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .thirdsection .box {
+    padding: 0px;
+  }
+
+  .fourthsection .box {
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .fourthsection .box h5 {
+    font-size: 16px;
+    
+  }
+  .fourthsection .box li {
+    font-size: 16px;
+    
+  }
+  .fifthsection .box {
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .fifthsection .box h5{
+    font-size: 16px;
+    
+  }
+  .fifthsection .box li{
+    font-size: 16px;
+    
+  }
+  .sixthsection .box{
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .footer {
+    margin-top: -50px;
+    justify-content: center;
+  }
+
+  .footer div {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 23px;
+  }
+  
+
+}
